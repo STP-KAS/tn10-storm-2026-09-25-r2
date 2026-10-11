@@ -3,6 +3,10 @@
 > Good intentions, shaky hands. STP does not know what he is doing. We test, we write down what we think we saw, and that is the whole product. A number here is not the truth. A chart is not the truth. Any other sentence that sounds sure of itself is not the truth either. Do not count any of it as a claim.
 >
 > [Disclaimer](DISCLAIMER.md)
+>
+> **Part of [tn-master](https://github.com/STP-KAS/tn-master)**, the map of every TN10 storm. Renamed on 11 Oct 2026 from `grok-bot-vprogs-round2`; old links redirect here.
+>
+> ← previous storm: [tn10-storm-2026-09-25-r1](https://github.com/STP-KAS/tn10-storm-2026-09-25-r1) | next storm: [tn10-storm-2026-09-25-vprogs-desk](https://github.com/STP-KAS/tn10-storm-2026-09-25-vprogs-desk) →
 
 > **Experimental only. Not a product.**
 >
@@ -11,8 +15,8 @@
 # TN10 round 2: final write-up (full run + recovery)
 
 > **Testnet-10 only.** Round 1 covers the setup, findings F1–F7, vprogs and all scripts:
-> **https://github.com/STP-KAS/grok-bot-vprogs-round1-public** (public clean copy of the private round-1 repo). This repo covers **round 2 only**
-> and how it compares. Round 3 (vprogs contention) is in **https://github.com/STP-KAS/grok-bot-vprogs-round3**.
+> **https://github.com/STP-KAS/tn10-storm-2026-09-25-r1** (public clean copy of the private round-1 repo). This repo covers **round 2 only**
+> and how it compares. Round 3 (vprogs contention) is in **https://github.com/STP-KAS/tn10-storm-2026-09-26-r3**.
 >
 > Times are CEST (UTC+2). Figures marked ✔ were recomputed from the logs in `logs/` (and the work-dir originals)
 > with `tools/report-stats.py` / a cross-midnight window script. **[unverified]** means an operator note with no log behind it.
@@ -200,5 +204,5 @@ TESTNET ONLY. No seeds, private keys, or `/home/box/secure` material are in this
 
 ## Related
 
-- Summary of all rounds (1–8): [tn10-vprogs-stress-findings](https://github.com/STP-KAS/tn10-vprogs-stress-findings).
-- [grok-bot-explorer-rewards-check](https://github.com/STP-KAS/grok-bot-explorer-rewards-check): the TN10 explorer tx list froze at 2026-09-25 21:55:38 CEST (the public indexer stalled network-wide, ~7 min into the PHASE1 overload). Mining rewards to our address are verified live and match the balance growth exactly.
+- Summary of all rounds (1–8): [tn10-storm-2026-09-25](https://github.com/STP-KAS/tn10-storm-2026-09-25).
+- [tn10-storm-2026-09-26-explorer-check](https://github.com/STP-KAS/tn10-storm-2026-09-26-explorer-check): the TN10 explorer tx list froze at 2026-09-25 21:55:38 CEST (the public indexer stalled network-wide, ~7 min into the PHASE1 overload). Mining rewards to our address are verified live and match the balance growth exactly.
